@@ -13,7 +13,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         print("Welcome to CUC")
         super.viewDidLoad()
+        welcome()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    func welcome(){
+        print("It's cold!")
     }
 
 
